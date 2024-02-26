@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Radio Button Olympics</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="game-container">
+            <h1>Radio Button Olympics</h1>
+            <div>
+                <label for="finish">Select Finish Line:</label><br>
+                <select name="finish" id="finish">
+                    <option value=10>10 Button Dash</option>
+                    <option value=25>25 Button Dash</option>
+                    <option value=50>50 Button Dash</option>
+                    <option value=100>100 Button Marathon</option>
+                </select>
+            </div>
+            <br>
+            <form id="game">Loading...</form>
+            <div id='score'>(Click the first radio button to start)</div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="game.js"></script>
+    </body>
+</html>
